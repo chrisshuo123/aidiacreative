@@ -1,0 +1,88 @@
+:root {
+    /* 1 - BG PAGE & HEADER FORMAT */
+    --light-gray: #F5F5F5;
+    --dark-header: #000000 50%; /*Opacity 50%*/
+
+    /* 1.1 - FORMAT TEKS MERAH & BIRU (SELURUH HALAMAN) */
+    /* DAN #HASHTAG BIRU PUCAT */
+    --teks-red: #FF0000;
+    --teks-blue: #0D7CFF;
+    --teks-lightblue: #41B3CC;
+    --hashtag-paleblue: #207B98;
+
+    /* 1.2 - Underline Title */
+    --underline-merahgelap: #B91616;
+    --underline-merahpucat: #F14C4C;
+    --underline-oranyecerah: #FF9C07;
+    
+    /* 2 - HOMEPAGE */
+    --homepage-light-gray-BG: #AFAFAF;
+    --homepage-gray-BG: #6A6262;
+    --homepage-darkgray-BG: #1B1A1A;
+    /* 2.1 - Tentang Kami */
+    --homepage-paleblue: #207B98;
+    --homepage-blue: #0D7CFF;
+    /* 2.2 - Yang kami kerjakan */
+    --homepage-gray: #8C8888;
+    --homepage-navyblue: #124A6A;
+    /* 2.3 - Our Services */
+    --homepage-darkgray: #3D3B3B;
+    /* 2.4 - Our Selected Client */
+    --homepage-palewhite: #F4F2F2;
+
+    /* 3 - ABOUT US */
+    /* 3.1 - Header dilabel hijau */
+    --aboutUs-header-hijau: #CDF338;
+    /* 3.2 - Text Color Visi & Misi */
+    --aboutUs-visimisi-grey: #7B7874;
+    /* 3.3 - Mengapa kok UMKM? */
+    --aboutUs-lightOrange: #FFCA42;
+    --aboutUs-lightBlue: #9BD2CB;
+    /* 3.4 - Gradiasi Warna */
+    /*1: 155, 210, 203, 100%: #73D2CB
+    2: 33 , 112, 229, 100%: #2170E5
+    3:  9 , 33 ,  68, 100%: #092144
+    4:  0 ,  4 ,  10, 100%: #00040A*/
+    --aboutUs-gradiasi-lightblue: #73D2CB;
+    --aboutUs-gradiasi-blue: #2170E5;
+    --aboutUs-gradiasi-navyblue: #092144;
+    --aboutUs-gradiasi-darkblue: #00040A;
+    /* 3.5 - bulan kuning fullmoon
+    dan stik wand: */
+    --aboutUs-freshyellow: #FAFF16;
+    /* 3.6 - bintang wand: */
+    --aboutUs-grey-wand: #ACA9A5;
+
+    /* 4 - CONTACT US (ada di 1.1.) */
+
+    /* 5 - Our Work, Portfolio, Services,
+Sub-Hal. Our Portfolio */
+    --ourWork-abugelap-BG: #6A6262;
+    /* 5.1 - Our Portfolio */
+    --ourWork-portfolio-abucerah: #D9D9D9;
+    --ourWork-portfolio-merahGelap: #B91616;
+    --ourWork-portfolio-navyBlue: #124A6A;
+    /* 5.2 - Our Services */
+    --ourWork-services-abugelap1: #3D3B3B;
+    /* 5.3 - CTA di Sub Our Portfolio */
+    --ourWork-subOurPortfolio-kuning: #FFE817;
+    --ourWork-subOurPortfolio-dark: #444040;
+
+    /* 6 - Sub-Hal Our Services */
+    /* 6.1 - Header */
+    --sub-ourservices-green: #587A4D;
+    /* 6.2. Mengikuti No. 5 */
+    /* 6.3. Bag. 'daftar List Jasa' */
+    /* 6.3.1 - BG Color (abu2 Pucat): */
+    --sub-ourservices-abupucat: #AFAFAF;
+    /* 6.3.3 - Pada per Kotak Kategori: */
+    --sub-ourservices-white: #ffffff;
+    --sub-ourservices-palewhite: #F8F6F6;
+    --sub-ourservices-grey: #BBB8BD;
+    --sub-ourservices-darkgrey: #888181;
+
+    /* 7 - FOOTER */
+    /* Bag. Tombol 'Kirim Pesan' */
+    --footer-yellow: #FFC700;
+    --footer-paleyellow: #FFEFB8;
+}
