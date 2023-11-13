@@ -86,3 +86,117 @@ Sub-Hal. Our Portfolio */
     --footer-yellow: #FFC700;
     --footer-paleyellow: #FFEFB8;
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    width: 1012px;
+    margin: 0 auto;
+    /*background: red;*/
+}
+
+header {
+    /*background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);*/
+    height: 80vh;
+    width: 100%;
+}
+
+header .header-homepage {
+    background-image: url("aidia-png-svg/2 - Homepage/1 - Header Aidia Creative/image BG Header.PNG");
+}
+
+header .header-contactus {
+    /*background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);*/
+    background-image: url("aidia-png-svg/4 - Contact Us/contactUs-header-BG.PNG");
+}
+
+header h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+nav {
+    /*padding-left: 6%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 994px; 
+    top: 10px;
+    z-index: 100;
+
+    /*background-color: #fff;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 994px; /*1320px*/
+}
+
+/*.nav-bg {
+    background: #fff;
+    
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 calc(-50vw + 50%);
+} */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.hero-section-contactus {
+    margin-bottom: -5%;
+    text-align:center;
+    max-width: 70%;
+    margin-left: 15%;
+    color: white;
+}
+
+.bg-temanmumeraihmimpi {
+    /* Bagian BG nya */
+    width: 632px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #207B98;
+    margin-left:5%;
+}
+
+.bg-temanmumeraihmimpi .temanmumeraihmimpi {
+    padding-top: 0.5%;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
