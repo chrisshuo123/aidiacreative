@@ -119,6 +119,23 @@ header .header-contactus {
     background-image: url("aidia-png-svg/4 - Contact Us/contactUs-header-BG.PNG");
 }
 
+header .header-aboutus {
+    background-image: url("aidia-png-svg/3 - About Us/aboutUs-header-BG.PNG");
+}
+
+header .header-ourworks {
+    background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/ourWorks-header-BG.PNG");
+}
+
+header .header-ourportfolio {
+    background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.1 - Our Portfolio/ourPortfolio-header-BG.PNG");
+}
+
+header .header-ouservices {
+    background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.2 - Our Services/ourServices-header-BG.PNG");
+}
+
+
 header h1 {
     color: #fff;
     font-size: 50px;
@@ -174,6 +191,28 @@ nav ul li a {
     justify-content: space-between;
 }
 
+.hero-section-aboutus {
+    text-align:left;
+    max-width: 70%;
+    color: white;
+}
+
+.hero-section-aboutus-image img {
+    margin-right: 3%;
+}
+
+.hero-section-aboutus-image {
+    z-index: 99;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.red-wave-symbol {
+    margin-left: 80%;
+    margin-top: -25%;
+    z-index: 99;
+}
+
 .hero-section-contactus {
     margin-bottom: -5%;
     text-align:center;
@@ -200,3 +239,40 @@ nav ul li a {
     font-weight: 700;
     line-height: normal;
 }
+
+.hero-section .hero-section-ourworks {
+    margin-top: 15%;
+    color: #fff;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.hero-section .hero-section-ourworks h1 {
+    font-size: 80px;
+    margin-bottom: -3%;
+}
+
+.hero-section .hero-section-ourportfolio {
+    margin-top: 15%;
+    color: #fff;
+    text-align: center;
+    margin-left: 24%;
+}
+
+.hero-section .hero-section-ourportfolio h1 {
+    font-size: 80px;
+    margin-bottom: -3%;
+}
+
+.hero-section .hero-section-ourservices {
+    margin-top: 15%;
+    color: #fff;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.hero-section .hero-section-ourservices h1 {
+    font-size: 80px;
+    margin-bottom: -3%;
+}
+
