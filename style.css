@@ -135,6 +135,29 @@ header .header-ouservices {
     background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.2 - Our Services/ourServices-header-BG.PNG");
 }
 
+header .header-designfeed-ig-services {
+    background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.1 - Design Feeds IG/designFeedsIG-header-BG.PNG");
+}
+
+header .header-shorvid-prod-services {
+    background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.2 - Short Video Production/shortVid-header-BG.PNG");
+}
+
+header .header-smm-services {
+    background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.2 - Short Video Production/shortVid-header-BG.PNG");
+}
+
+header .header-designfeed-ig-portfolio {
+    background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.2 - Design Feeds Instagram/design-feeds-instagram-header.PNG");
+}
+
+header .header-shortvid-prod-portfolio {
+    background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.1 - Our Portfolio/ourPortfolio-header-BG.PNG");
+}
+
+header .header-smo-portfolio {
+    background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.3 - Social Media Optimization (SMO)/sosmed-optimization-header.PNG");
+}
 
 header h1 {
     color: #fff;
@@ -264,15 +287,90 @@ nav ul li a {
     margin-bottom: -3%;
 }
 
-.hero-section .hero-section-ourservices {
-    margin-top: 15%;
+/* Menggunakan .hero-section-services KARENA TINGGI HEADER KURANG */
+
+.hero-section-services {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.hero-section-services .hero-section-ourservices {
+    margin-top: 10%;
     color: #fff;
     text-align: center;
     margin-left: 20%;
 }
 
-.hero-section .hero-section-ourservices h1 {
+.hero-section-services .hero-section-ourservices h1 {
     font-size: 80px;
     margin-bottom: -3%;
 }
 
+/* Menggunakan .hero-section TANPA SERVICES, dikarenakan Tinggi Header perlu Spacing */
+
+.hero-section .hero-services-subsection {
+    margin-top: 6%;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-section .hero-services-subsection h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.hero-section .hero-services-subsection p {
+    font-size: 15px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero-section .hero-services-subsection h2 {
+    font-size: 40px;
+    margin-bottom: -0.1px;
+}
+
+.button-services-green {
+    margin-top: 10px;
+    background-color: #587A4D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.button-services-green:hover {
+    cursor: pointer;
+}
+
+
+/* Sub-Hal Portfolio MENGGUNAKAN .hero-section-portfolio, karena Ukuran Tinggi Header lebih Pendek */
+
+.hero-section-portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.hero-section-portfolio .hero-subsection-portfolio {
+    margin-top: 6%;
+    color: #fff;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 11%;
+}
