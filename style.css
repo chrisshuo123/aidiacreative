@@ -102,7 +102,22 @@ body {
     width: 1012px;
     margin: 0 auto;
     /*background: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+/* Hero Section */
+/*.hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+}*/
 
 header {
     /*background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);*/
@@ -244,6 +259,9 @@ nav ul li a {
     color: white;
 }
 
+/* untuk #TemanmuMeraihMimpi pada masing2 HTML disetkan sendiri stylenya secara Position: Absolute
+lalu atur sendiri margin nya. */
+
 .bg-temanmumeraihmimpi {
     /* Bagian BG nya */
     width: 632px;
@@ -252,10 +270,11 @@ nav ul li a {
     border-radius: 50px;
     background: #207B98;
     margin-left:5%;
+    margin-bottom: 5%;
 }
 
 .bg-temanmumeraihmimpi .temanmumeraihmimpi {
-    padding-top: 0.5%;
+    color: #fff;
     text-align: center;
     font-size: 40px;
     font-style: normal;
@@ -373,4 +392,380 @@ nav ul li a {
     text-align: center;
     margin-left: 20%;
     margin-top: 11%;
+}
+
+/* BG-1: Warna Gray #AFAFAF */
+.background-1 {
+    content: '';
+    background: var(--homepage-light-gray-BG);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-1 .articles {
+    width: 994px;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.background-1 .articles h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+.background-1 .articles p {
+    color: #282622;
+}
+
+.background-1 .articles h3 {
+    font-size: 25px;
+}
+
+/* BG-2: BG Standar Polos */
+.background-2 {
+    content: '';
+    background: var(--light-gray);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-2 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.mengapa-pilih-aidia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+}
+
+.mengapa-pilih-aidia ul {
+    text-align: center;
+    width: 30%;
+}
+
+.mengapa-pilih-aidia ul h3 {
+    font-size: 20px;
+}
+
+/* BG-3: Warna Gray #AFAFAF Seperti BG-1, hanya saja ini TANPA CLASS .ARTICLE-nya */
+
+.background-3 {
+    content: '';
+    background: var(--homepage-light-gray-BG);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-3 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.background-3 div {
+    margin-left: 7.5%;
+}
+
+/*BG-4: Warna Gray Gelap */
+
+.background-4 {
+    content: '';
+    background: var(--ourWork-abugelap-BG);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-4 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.background-4 div {
+    margin-left: 7.5%;
+}
+
+.background-5 {
+    content: '';
+    background: var(--homepage-darkgray-BG);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-5 h2 {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 9.5%;
+}
+
+.flex-our-portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 5%;
+}
+
+.flex-our-portfolio ul {
+    background-color: #8C8888;
+    border: none;
+    margin-right: 80px;
+    width: 500px;
+    height: 295px; 
+    border-radius: 5%;
+    /*position: absolute;
+    width: 500px;
+    height: 295px;
+    border-radius: 5%;*/
+}
+
+.flex-our-portfolio ul img:nth-of-type(1) {
+    position: absolute;
+    margin-left: -5%;
+    margin-top: -3%;
+}
+
+.flex-our-portfolio .arrow-adjust {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 27.5%;
+}
+
+.flex-our-portfolio ul h3 {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 13.5%;
+    margin-left: -4%;
+}
+
+.flex-our-portfolio ul p {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -4%;
+}
+
+.button-our-portfolio {
+    width: 498px;
+    height: 69px;
+    border-radius: 30px;
+    border: none;
+    background: #124A6A;
+    font-size: 25px;
+    color: #fff;
+    margin: 5% auto;
+    margin-left: 30%;
+}
+
+.flex-our-services {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    margin-top: 5%;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.flex-our-services ul {
+    background-color: #3D3B3B;
+    width: 496px;
+    height: auto;
+    padding-bottom: 3%;
+    border-radius: 5%;
+    margin-right: 7%;
+}
+
+.flex-our-services ul ol {
+    margin-left:-13%;
+}
+
+.flex-our-services .service-underline {
+    width: 185px;
+    height: 3px;
+    background: #fff;
+    margin-left: -0%;
+    margin-bottom: 6.5%;
+    margin-top: -4%;
+}
+
+.flex-our-services h3 {
+    font-size: 30px;
+}
+
+.flex-our-services p {
+    margin-right: 7%;
+}
+
+.flex-our-services button {
+    background:none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: -1%;
+}
+
+.flex-our-services button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.flex-selected-clients {
+    margin-left: 10.5%;
+}
+
+.flex-selected-clients ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    margin-left: -7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.underline {
+    position: absolute;
+    background: #B91616;
+    width: 206px;
+    height: 8px;
+}
+
+footer {
+    content: '';
+    background: var(--ourWork-abugelap-BG);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    color:#fff;
+    background-color: #104D50;
+}
+
+footer .column-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+footer .motto-aidia-footer p {
+    font-size:20px;
+    margin-bottom:-6%;
+}
+
+footer .motto-aidia-footer button {
+    background:none;
+    border:none;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #FFC700;
+    width: 295px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius:10px;
+}
+
+footer .contact-us-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 70%;
+    margin-left: -10%;
+    margin-top: -3%;
+}
+
+footer .contact-us-footer h3 {
+    font-size: 14px;
+}
+
+footer .contact-us-footer p {
+    font-size: 10px;
+}
+
+footer .contact-us-footer ol {
+    width: 35%;
+}
+
+footer .our-sosmed-footer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:-16%;
+}
+
+footer .our-sosmed-footer ol {
+    margin-right: -19%;
+}
+
+footer .our-company-footer button {
+    background:none;
+    border:none;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 850;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+footer .our-company-footer button:hover {
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+
+/*
+.flex-our-services button {
+    background:none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 900;
+    margin-left: -1%;
+}
+*/
+
+footer ul {
+    margin-left: -7%;
 }
