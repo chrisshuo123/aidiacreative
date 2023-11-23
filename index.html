@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Homepage Aidia</title>
 </head>
 <body>
@@ -14,8 +15,11 @@
         <div class="header-homepage">
             <div class="wrapper">
                 <nav class="nav-bg">
-                    <img src="aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG">
+                <!--<nav>-->
                     <ul>
+                        <li><img src="aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG" style="position: relative;"></li>
+                    </ul>
+                    <ul class="navbar-right">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Our Work</a></li>
                         <!--<ul>
@@ -36,18 +40,18 @@
     <!-- 1 : TENTANG AIDIA CREATIVE -->
     <div class="wrapper">
         <article class="background-1">
-            <div class="articles" style="margin-left: 10%;">
+            <div class="articles">
                 <h2>Tentang Aidia Creative</h2>
                 <p style="margin-bottom: 0%;">AIDIA Creative merupakan Creative Branding Agency yang ingin membantu UMKM untukscale up bisnisnya dengan menyediakan jasa <b style="color: #FF0000;">Branding & Social Media Management</b> bagi UMKM di Indonesia</p>
                 <p a href="#" style="cursor:pointer;"><b>...Selengkapnya Baca Disini</b></p>
                 <div>
                     <p><b>Kotak Video Play</b></p>
                 </div>
-                <h3><favicon style="color:#FF0000;">MIMPI</favicon> adalah <favicon style="color:#0D7CFF;">Perjalanan</favicon>, dan kami ingin Menjadi</h3>
+                <h3 style="margin-bottom: 2%;"><favicon style="color:#FF0000;">MIMPI</favicon> adalah <favicon style="color:#0D7CFF;">Perjalanan</favicon>, dan kami ingin Menjadi</h3>
                 <!--<h3>#TemanmuMeraihMimpi</h3>-->
                 <div class="bg-temanmumeraihmimpi" style="margin-left: 18%;">
                     <div class="temanmumeraihmimpi">
-                        <h3 style="position: absolute; margin-top: 1%; margin-left: 12%;">
+                        <h3 style="position: absolute; margin-top: 1.5%; margin-left: 14%;">
                             #TemanmuMeraihMimpi
                         </h3>
                     </div>
@@ -104,7 +108,7 @@
         <!-- 4 : Our Services -->
         <article class="background-4">
             <h2>Our Services</h2>
-            <div class="underline" style="left:34%; top:5.5%"></div>
+            <div class="underline"></div>
             <div class="flex-our-services">
                 <ul>
                     <ol><h3>Branding & Marketing</h3></ol>
@@ -145,7 +149,7 @@
         </article>
         <!-- 5 : Our Selected Clients -->
         <article class="background-5">
-            <h2>Our Selected Clients</h2>
+            <h2 style="margin-bottom: 2%">Our Selected Clients</h2>
             <div class="flex-selected-clients">
                 <!--<label for="cars">Choose a car:</label>-->
                 <select name="industry" id="industry">
@@ -218,16 +222,16 @@
         <footer>
             <div class="column-1">
                 <!-- 1: Motto Aidia -->
-                <div class="motto-aidia-footer" style="color:#fff; margin-right:7%;">
+                <div class="motto-aidia-footer">
                     <p><favicon style="color: #ff0000;">MIMPI</favicon> adalah <favicon style="color:#0D7CFF;">Perjalanan</favicon></p>
                     <p>Dan kami ingin Menjadi</p>
                     <p style="font-size:25px; margin-bottom:2%;"><b>#TemanmuMeraihMimpi</b></p>
                     <h3><button>Kirim Kami Pesan</button></h3>
                 </div>
                 <!-- 2: Contact Us -->
-                <div style="max-width: 62%; margin-right: -19%;">
+                <div class="contact-us-footer">
                     <h3 style="font-size:25px;">Contact Us</h3>
-                    <ul class="contact-us-footer">
+                    <ul class="sub-contact-us-footer">
                         <!--alamat kantor-->
                         <ol>
                             <h3><b>Alamat Kantor</b></h3>
@@ -256,9 +260,9 @@
                     </ul>
                 </div>
                 <!-- 3: Our Company -->
-                <div>
-                    <h3 style="font-size:25px; margin-bottom:7%;">Our Company</h3>
-                    <div class="our-company-footer">
+                <div class="our-company-footer">
+                    <h3 style="">Our Company</h3>
+                    <div class="sub-our-company-footer">
                         <button>About Us</button>
                         <button>Our Portfolio</button>
                         <button>Our Services</button>

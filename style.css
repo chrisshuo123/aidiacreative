@@ -96,6 +96,7 @@ Sub-Hal. Our Portfolio */
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -180,14 +181,20 @@ header h1 {
 }
 
 nav {
-    /*padding-left: 6%;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 994px; 
-    top: 10px;
+    
+
+    /*width: 994px;
+    height: 100px;
+    z-index: 100;*/
+    
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 calc(-50vw + 50%);
+    padding: 2% 0;
+    background: rgba(255, 255, 255, 30%);
     z-index: 100;
+    position: fixed;
+    left: 0;
 
     /*background-color: #fff;
     margin: 0 auto;
@@ -195,21 +202,40 @@ nav {
     max-width: 994px; /*1320px*/
 }
 
-/*.nav-bg {
-    background: #fff;
-    
+.nav-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    /*
+    align-items: flex-start;
+    align-content: space-between;*/
+}
+
+.nav-bg img {
+    margin-left: 40%;
+}
+
+.nav-bg .navbar-right {
+    margin-left: 10%;
+    /*background-color: red;*/
+}
+
+.nav-bg ul {
     width: 100vw;
     max-width: 100vw;
     margin: 0 calc(-50vw + 50%);
-} */
+}
 
 nav ul {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 50px;
     list-style-type: none;
-    
+    /*background-color: lightgreen;*/
 }
+
 
 nav ul li a {
     font-family: "Poppins", sans-serif;
@@ -409,16 +435,19 @@ lalu atur sendiri margin nya. */
     align-items: baseline;
     justify-content: space-between;
     text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-family: "Poppins", sans-serif;
 }
 
 .background-1 .articles h2 {
     color: #fff;
     font-size: 40px;
-    margin-bottom: 0%;
 }
 
 .background-1 .articles p {
     color: #282622;
+    margin-top: 1.5%;
 }
 
 .background-1 .articles h3 {
@@ -433,11 +462,17 @@ lalu atur sendiri margin nya. */
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
+    font-family: "Poppins", sans-serif;
 }
 
 .background-2 h2 {
     text-align: center;
     font-size: 40px;
+    margin-top: 3%;
+}
+
+.background-2 div {
+    margin-top: 3%;
 }
 
 .mengapa-pilih-aidia {
@@ -449,6 +484,14 @@ lalu atur sendiri margin nya. */
     align-content: space-between;
     margin-left: 2.5%;
     margin-bottom: 5%;
+}
+
+.mengapa-pilih-aidia ul ol {
+    margin-bottom: 8%;
+}
+
+.mengapa-pilih-aidia ul ol:last-child {
+    margin-bottom: 0%;
 }
 
 .mengapa-pilih-aidia ul {
@@ -469,12 +512,14 @@ lalu atur sendiri margin nya. */
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
+    font-family: "Poppins", sans-serif;
 }
 
 .background-3 h2 {
     text-align: center;
     font-size: 40px;
     color: #fff;
+    margin-top: 3%;
 }
 
 .background-3 div {
@@ -490,16 +535,37 @@ lalu atur sendiri margin nya. */
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.background-4 .underline {
+    left:34%;
+    top:5%;
+}
+
+.background-4 div {
+    margin-left: 7.5%;
 }
 
 .background-4 h2 {
     text-align: center;
     font-size: 40px;
     color: #fff;
+    margin-top: 3%;
 }
 
-.background-4 div {
-    margin-left: 7.5%;
+.background-4 .flex-our-services h3 {
+    font-size: 25px;
+    margin-top: 6%;
+}
+
+.background-4 .flex-our-services img {
+    border-radius: 3%;
+}
+
+.background-4 p {
+    font-size: 15px;
+    margin-top: 5%;
 }
 
 .background-5 {
@@ -515,6 +581,7 @@ lalu atur sendiri margin nya. */
     font-size: 40px;
     color: #fff;
     margin-left: 9.5%;
+    margin-top: 3%;
 }
 
 .flex-our-portfolio {
@@ -597,9 +664,11 @@ lalu atur sendiri margin nya. */
     padding-bottom: 3%;
     border-radius: 5%;
     margin-right: 7%;
+    margin-bottom: 5%;
 }
 
 .flex-our-services ul ol {
+    margin-top: 2%;
     margin-left:-13%;
 }
 
@@ -609,7 +678,7 @@ lalu atur sendiri margin nya. */
     background: #fff;
     margin-left: -0%;
     margin-bottom: 6.5%;
-    margin-top: -4%;
+    margin-top: 2%;
 }
 
 .flex-our-services h3 {
@@ -668,6 +737,7 @@ footer {
     width: 100vw;
     color:#fff;
     background-color: #104D50;
+    font-family: "Poppins", sans-serif;
 }
 
 footer .column-1 {
@@ -678,12 +748,18 @@ footer .column-1 {
     align-items: baseline;
     align-content: space-between;
     margin-left: 5%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer .motto-aidia-footer {
+    color:#fff;
+    margin-right:7%;
 }
 
 footer .motto-aidia-footer p {
     font-size:20px;
-    margin-bottom:-6%;
+    margin-bottom:1%;
 }
 
 footer .motto-aidia-footer button {
@@ -700,6 +776,15 @@ footer .motto-aidia-footer button {
 }
 
 footer .contact-us-footer {
+    max-width: 62%;
+    margin-right: -19%;
+}
+
+footer .contact-us-footer h3 {
+    margin-bottom: 5.5%;
+}
+
+footer .sub-contact-us-footer {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -711,15 +796,15 @@ footer .contact-us-footer {
     margin-top: -3%;
 }
 
-footer .contact-us-footer h3 {
+footer .sub-contact-us-footer h3 {
     font-size: 14px;
 }
 
-footer .contact-us-footer p {
+footer .sub-contact-us-footer p {
     font-size: 10px;
 }
 
-footer .contact-us-footer ol {
+footer .sub-contact-us-footer ol {
     width: 35%;
 }
 
@@ -736,7 +821,16 @@ footer .our-sosmed-footer ol {
     margin-right: -19%;
 }
 
-footer .our-company-footer button {
+footer .our-company-footer {
+    margin-bottom: 1%;
+}
+
+footer .our-company-footer h3 {
+    font-size:25px;
+    margin-bottom:7%;
+}
+
+footer .sub-our-company-footer button {
     background:none;
     border:none;
     font-family: "Poppins", sans-serif;
@@ -748,7 +842,7 @@ footer .our-company-footer button {
     text-align: left;
 }
 
-footer .our-company-footer button:hover {
+footer .sub-our-company-footer button:hover {
     cursor:pointer;
     text-decoration:underline;
 }
