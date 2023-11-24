@@ -94,10 +94,23 @@ Sub-Hal. Our Portfolio */
 }
 
 body {
-    margin: 0;
+    /*display: inline-block;
+    position: relative;
+    width: 100%;*/
+    
     font-family: "Poppins", sans-serif;
+    margin: 0;
     overflow-x: hidden;
+    min-width: 300px;
 }
+
+/*@media screen and (max-width: 320px) {
+    
+}*/
+
+/*@media screen and (max-width: 1300px) {
+    
+}*/
 
 .wrapper {
     width: 1012px;
@@ -122,6 +135,7 @@ body {
 
 header {
     /*background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);*/
+    position: static;
     height: 80vh;
     width: 100%;
 }
@@ -181,8 +195,6 @@ header h1 {
 }
 
 nav {
-    
-
     /*width: 994px;
     height: 100px;
     z-index: 100;*/
@@ -190,7 +202,7 @@ nav {
     width: 100vw;
     max-width: 100vw;
     margin: 0 calc(-50vw + 50%);
-    padding: 2% 0;
+    padding: 1% 0;
     background: rgba(255, 255, 255, 30%);
     z-index: 100;
     position: fixed;
@@ -295,18 +307,26 @@ lalu atur sendiri margin nya. */
     flex-shrink: 0;
     border-radius: 50px;
     background: #207B98;
-    margin-left:5%;
     margin-bottom: 5%;
+    margin: 3% auto;
 }
 
-.bg-temanmumeraihmimpi .temanmumeraihmimpi {
+.bg-temanmumeraihmimpi h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 3%;
+}
+
+/*.bg-temanmumeraihmimpi .temanmumeraihmimpi {
     color: #fff;
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+}*/
 
 .hero-section .hero-section-ourworks {
     margin-top: 15%;
@@ -428,9 +448,11 @@ lalu atur sendiri margin nya. */
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
+    text-align:center;
+    font-family: "Poppins", sans-serif;
 }
 
-.background-1 .articles {
+/*.background-1 .articles {
     width: 994px;
     align-items: baseline;
     justify-content: space-between;
@@ -438,19 +460,22 @@ lalu atur sendiri margin nya. */
     margin-left: 10%;
     margin-top: 3%;
     font-family: "Poppins", sans-serif;
-}
+}*/
 
-.background-1 .articles h2 {
+.background-1 h2 {
     color: #fff;
     font-size: 40px;
+    margin-top: 2%;
 }
 
-.background-1 .articles p {
+.background-1 p {
     color: #282622;
     margin-top: 1.5%;
+    max-width: 80%;
+    margin: 2% auto;
 }
 
-.background-1 .articles h3 {
+.background-1 h3 {
     font-size: 25px;
 }
 
@@ -476,6 +501,7 @@ lalu atur sendiri margin nya. */
 }
 
 .mengapa-pilih-aidia {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -485,6 +511,18 @@ lalu atur sendiri margin nya. */
     margin-left: 2.5%;
     margin-bottom: 5%;
 }
+
+/*
+.flex-our-portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 5%;
+}
+*/
 
 .mengapa-pilih-aidia ul ol {
     margin-bottom: 8%;
@@ -520,10 +558,15 @@ lalu atur sendiri margin nya. */
     font-size: 40px;
     color: #fff;
     margin-top: 3%;
+    margin-bottom: 1%;
 }
 
 .background-3 div {
     margin-left: 7.5%;
+}
+
+.background-3 .underline {
+    margin: 0 auto;
 }
 
 /*BG-4: Warna Gray Gelap */
@@ -539,8 +582,9 @@ lalu atur sendiri margin nya. */
 }
 
 .background-4 .underline {
-    left:34%;
-    top:5%;
+    /*left:34%;
+    top:5%;*/
+    margin: 0 auto;
 }
 
 .background-4 div {
@@ -590,11 +634,11 @@ lalu atur sendiri margin nya. */
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: baseline;
     margin-top: 5%;
 }
 
 .flex-our-portfolio ul {
+    display: grid;
     background-color: #8C8888;
     border: none;
     margin-right: 80px;
@@ -608,28 +652,40 @@ lalu atur sendiri margin nya. */
 }
 
 .flex-our-portfolio ul img:nth-of-type(1) {
-    position: absolute;
+    margin-left: -17%;
+    margin-top: -7%;
+    /*background-color: rgba(0,0,0,0.5);
+    grid-row-start:1;
+    grid-column-start: 1; */
+    
+    /*position: absolute;
     margin-left: -5%;
-    margin-top: -3%;
+    margin-top: -3%;*/
 }
 
 .flex-our-portfolio .arrow-adjust {
-    position: absolute;
+    margin-left: 75%;
+    margin-top: -15%;
+    /*position: absolute;
     margin-top: 20%;
-    margin-left: 27.5%;
+    margin-left: 27.5%;*/
 }
 
 .flex-our-portfolio ul h3 {
     font-size: 25px;
-    position: absolute;
+    margin-top: -12%;
+    margin-left: -12%;
+    /*position: absolute;
     margin-top: 13.5%;
-    margin-left: -4%;
+    margin-left: -4%;*/
 }
 
 .flex-our-portfolio ul p {
-    position: absolute;
+    margin-left: -12%;
+    margin-top: -3%
+    /*position: absolute;
     margin-top: 20%;
-    margin-left: -4%;
+    margin-left: -4%;*/
 }
 
 .button-our-portfolio {
@@ -721,8 +777,31 @@ lalu atur sendiri margin nya. */
     margin-bottom: 5%;
 }
 
+
+/* BAGIAN ABOUT US */
+.wrapper .flex-visi-misi {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 calc(-50vw + 50%);
+}
+
+.flex-visi-misi ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-visi-misi ul ol {
+    background-color: red;
+}
+
+.img-width {
+    width: 100%;
+}
+
+
+
 .underline {
-    position: absolute;
     background: #B91616;
     width: 206px;
     height: 8px;
