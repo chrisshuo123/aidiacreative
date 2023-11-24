@@ -328,6 +328,24 @@ lalu atur sendiri margin nya. */
     line-height: normal;
 }*/
 
+.bg-tag-umkm {
+    /* Bagian BG nya */
+    width: 632px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFCA42;
+    margin-bottom: 5%;
+}
+
+.bg-tag-umkm h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 3%;
+}
+
 .hero-section .hero-section-ourworks {
     margin-top: 15%;
     color: #fff;
@@ -628,6 +646,20 @@ lalu atur sendiri margin nya. */
     margin-top: 3%;
 }
 
+.background-6 {
+    content: '';
+    background: var(--aboutUs-lightBlue);
+    left: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+}
+
+.background-6 h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
 .flex-our-portfolio {
     position: relative;
     display: flex;
@@ -793,6 +825,20 @@ lalu atur sendiri margin nya. */
 
 .flex-visi-misi ul ol {
     background-color: red;
+}
+
+.layout-aboutus-why-umkm {
+    margin-left: 9.5%;
+    margin-top: 3%;
+    margin-right: 9.5%;
+}
+
+.layout-aboutus-why-umkm h2 {
+    margin-bottom: -1%;
+}
+
+.layout-aboutus-why-umkm p {
+    text-align: center;
 }
 
 .img-width {
