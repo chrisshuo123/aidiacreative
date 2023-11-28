@@ -845,7 +845,36 @@ lalu atur sendiri margin nya. */
     width: 100%;
 }
 
+.flex-row-contact-us ul {
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -3%;
+}
 
+.layout-list-contact table tr th {
+    border: 1px solid black;
+    text-align:left;
+}
+
+.layout-list-contact table h3 {
+    margin-bottom: -3%;
+    margin-top: -0.3%;
+    margin-left: 5%;
+}
+
+.layout-list-contact table p {
+    margin-left: 5%;
+}
+
+.our-sosmed-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -5%;
+}
 
 .underline {
     background: #B91616;
