@@ -1,0 +1,54 @@
+/*contoh, ingin merubah class .container, cukup tulis gini::after
+
+.container {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 10%
+}
+
+Maka class container akan tercustom lewat custom.css ini.
+
+*/
+
+:root {
+    --active-hover-color-navbar: #C1C0C0;
+    --active-selected-navbar: #ffffff;
+}
+
+/* CUSTOMIZE NAVBAR */
+
+/* Mengatur Warna Text NavBar */
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link.active {
+        color: var(--active-selected-navbar);
+        font-weight: 1000;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: var(--active-hover-color-navbar);
+    }
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: var(--active-selected-navbar);
+    font-weight: 1000;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: var(--active-hover-color-navbar);
+}
+
+/* Mengatur Margin Dropdown Navbar agar tidak jomplang ke-kanan */
+ul.dropdown-menu.show {
+    margin-left: 0%;
+}
+
+/* Meng-custom warna Text pada Navbar */
+li.nav-item a {
+    color: #fff;
+}
+
+a.active {
+    color: #fff;
+}
+
+ul.dropdown-menu li a {
+    color: #000;
+}
