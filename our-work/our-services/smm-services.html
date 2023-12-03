@@ -7,36 +7,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" type="text/css" href="../../custom.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Social Media Management Services Aidia</title>
 </head>
 <body>
-    <header>
-        <div class="header-smm-services">
-            <nav class="nav-bg">
-                <ul>
-                    <li><img src="../../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG"></li>
-                </ul>
-                <ul class="navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Work</a></li>
-                    <!--<ul>
-                        <li><a href="#">Our Portfolio</a></li>
-                        <li><a href="#">Our Services</a></li>
-                    </ul>-->
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-            <!--<img src="aidia-png-svg\5.2 - Sub-Hal. Services\5.2.2 - Short Video Production\shortVid-header-BG.PNG">-->
-            <div class="hero-section">
-                <div class=" container hero-services-subsection" style="margin-top: 10%;">
-                    <h1>Social Media Management</h1>
-                    <p>Sebuah layanan Social Media Management (SMM), sekaligus Social Media Optimization (SMO) untuk mengoptimasi usaha UMKM anda melalui berbagai platform (FB, IG, TikTok, Twitter, WhatsApp, dkk), serta meningkatkan Engagement akun tersebut sesuai dengan trend & algoritma dari masing-masing platform akun ini.</p>
-                    <h2 style="margin-top: 2%;">Gimana Cara Kerja Kami?</h2>
-                    <button onclick="window.location.href='#';" type="button" class="button-services-green">Selengkapnya Dibahas Disini</button>
+    <header class="header-smm-services">
+        <div class="container-fluid" style="position: fixed; z-index:100;">
+            <nav class="navbar navbar-expand-lg navbar-light"> <!--bg-light dihapus supaya transparan-->
+                <div class="container">
+                    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                    <img src="../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG" style="position: relative;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-right-position" id="navbarNavDropdown">
+                    <!-- Khusus class .navbar-right-position diedit pada style.css -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="our-work\our-portfolio\our-portfolio.html">Our Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="our-work\our-portfolio\shortvid-production-portfolio.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item" href="shortvid-production-portfolio\designfeed-ig-portfolio.html">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item" href="shortvid-production-portfolio\sosmed-opt-portfolio.html">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="our-work\our-services\our-services.html">Our Services</a></li>
+                                    <li><a class="dropdown-item" href="our-work\our-services\shortvid-prod-services.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item" href="our-work\our-services\designfeed-ig-services.html">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item active" href="#">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="about-us.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </nav>
+        </div>
+        <!--<img src="aidia-png-svg\5.2 - Sub-Hal. Services\5.2.2 - Short Video Production\shortVid-header-BG.PNG">-->
+        <div class="hero-section">
+            <div class=" container hero-services-subsection" style="margin-top: 10%;">
+                <h1>Social Media Management</h1>
+                <p>Sebuah layanan Social Media Management (SMM), sekaligus Social Media Optimization (SMO) untuk mengoptimasi usaha UMKM anda melalui berbagai platform (FB, IG, TikTok, Twitter, WhatsApp, dkk), serta meningkatkan Engagement akun tersebut sesuai dengan trend & algoritma dari masing-masing platform akun ini.</p>
+                <h2 style="margin-top: 2%;">Gimana Cara Kerja Kami?</h2>
+                <button onclick="window.location.href='#';" type="button" class="button-services-green">Selengkapnya Dibahas Disini</button>
             </div>
         </div>
     </header>
