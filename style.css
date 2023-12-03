@@ -178,8 +178,9 @@ header .header-designfeed-ig-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.2 - Design Feeds Instagram/design-feeds-instagram-header.PNG");
 }
 
-header .header-shortvid-prod-portfolio {
+.header-shortvid-prod-portfolio {
     background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.1 - Our Portfolio/ourPortfolio-header-BG.PNG");
+    height: 75vh;
 }
 
 header .header-smo-portfolio {
@@ -211,6 +212,14 @@ nav {
     max-width: 994px; /*1320px*/
 }
 
+.first {
+    background: rgba(255, 255, 255, 30%);
+}
+
+.second {
+    opacity: 10;
+}
+
 .nav-bg {
     display: flex;
     flex-direction: row;
@@ -234,6 +243,16 @@ nav {
     width: 100vw;
     max-width: 100vw;
     margin: 0 calc(-50vw + 50%);
+}
+
+.navbar-right-position ul {
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 991.33px) {
+    .navbar-right-position ul {
+        margin-left: 0%;
+    }
 }
 
 nav ul {
@@ -595,10 +614,6 @@ lalu atur sendiri margin nya. */
     padding-bottom: 1%;
 }
 
-.background-3 div {
-    margin-left: 7.5%;
-}
-
 .background-3 .underline {
     margin: 0 auto;
 }
@@ -667,15 +682,15 @@ lalu atur sendiri margin nya. */
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: space-between;
+    align-items: baseline;
+    align-content: center;
     margin-top: 5%;
-    padding-bottom: 5%;
+    margin-left: 15%;
 }
 
 .flex-our-portfolio ul {
     background-color: #8C8888;
-    width: 400px;
+    width: 350px;
     height: 250px; /*auto*/
     padding-bottom: 3%;
     border-radius: 5%;
@@ -709,16 +724,16 @@ lalu atur sendiri margin nya. */
     margin-top: -3%;*/
 }
 
-.flex-our-portfolio .arrow-adjust {
-    margin-left: 75%;
-    margin-top: -15%;
+.flex-our-portfolio svg {
+    margin-left: 70%;
+    margin-top: -25%;
     /*position: absolute;
     margin-top: 20%;
     margin-left: 27.5%;*/
 }
 
 .flex-our-portfolio h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: -12%;
     margin-left: -12%;
     /*position: absolute;
@@ -728,7 +743,8 @@ lalu atur sendiri margin nya. */
 
 .flex-our-portfolio p {
     margin-left: -12%;
-    margin-top: -3%
+    margin-top: -3%;
+    font-size: 15px;
     /*position: absolute;
     margin-top: 20%;
     margin-left: -4%;*/
@@ -743,7 +759,7 @@ lalu atur sendiri margin nya. */
     font-size: 25px;
     color: #fff;
     margin: 5% auto;
-    margin-left: 25%;
+    margin-left: 28%;
 }
 
 .button-view-our-portfolio {
@@ -755,6 +771,58 @@ lalu atur sendiri margin nya. */
     font-size: 25px;
     color: #fff;
     margin: 5% auto;
+    margin-top: -2%;
+}
+
+div.short-vid-port-layout {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
+    margin-left: 9%;
+}
+
+div.short-vid-port-layout .sub-short-vid-port-layout {
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+/*.short-vid-port-layout ul img {
+    width: 250px;
+}*/
+
+div.sub-short-vid-port-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/*div.sub-short-vid-port-layout img {
+    width:250px;
+}*/
+
+.short-vid-layout-size {
+    width: 250px;
+    height: 350px;
+}
+
+.arrow-cta-position {
+    position: relative;
+    margin-left: 90%;
+    z-index: 10;
+}
+
+.button-view-more-shortvid-portfolio {
+    width: 250px;
+    height: 69px;
+    border-radius: 0 0 30px 30px;
+    border: none;
+    background: #124A6A;
+    font-size: 25px;
+    color: #fff;
     margin-top: -2%;
 }
 
@@ -832,22 +900,22 @@ lalu atur sendiri margin nya. */
     cursor: pointer;
 }
 
-.div-services-offer {
+.div-article-offer {
     margin-left: 9%;
     max-width: 82%;
 }
 
-.div-services-offer h2 {
+.div-article-offer h2 {
     margin-top: 5%;
     font-size: 60px;
     text-align:center;
 }
 
-.div-services-offer .sub-div-services-offer {
+.div-article-offer .sub-div-article-offer {
     margin: 5% auto;
 }
 
-.div-services-offer .sub-div-services-offer h3 {
+.div-article-offer .sub-div-article-offer h3 {
     font-size: 40px;
 }
 
@@ -865,7 +933,7 @@ lalu atur sendiri margin nya. */
 }
 
 
-.div-services-offer .sub-div-services-offer p {
+.div-article-offer .sub-div-article-offer p {
     font-size: 20px;
 }
 
