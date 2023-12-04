@@ -7,58 +7,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" type="text/css" href="../../custom.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Our Portfolio Aidia</title>
 </head>
 <body>
     <header class="header-ourportfolio">
-        <nav class="nav-bg">
-        <!--<nav>-->
-            <ul>
-                <li><img src="../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG" style="position: relative;"></li>
-            </ul>
-            <ul class="navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Work</a></li>
-                <!--<ul>
-                    <li><a href="#">Our Portfolio</a></li>
-                    <li><a href="#">Our Services</a></li>
-                </ul>-->
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="container-fluid" style="position: fixed; z-index:100;">
+            <nav class="navbar navbar-expand-lg navbar-light"> <!--bg-light dihapus supaya transparan-->
+                <div class="container">
+                    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                    <img src="../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG" style="position: relative;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-right-position" id="navbarNavDropdown">
+                    <!-- Khusus class .navbar-right-position diedit pada style.css -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item active" href="#">Our Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\shortvid-production-portfolio.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\designfeed-ig-portfolio.html">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\sosmed-opt-portfolio.html">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\our-services.html">Our Services</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\shortvid-prod-services.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\designfeed-ig-services.html">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\smm-services.html">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\about-us.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
         <!--<img src="aidia-png-svg\5 - Our Work (Portfolio, Service)\5.1 - Our Portfolio\ourPortfolio-header-BG.PNG">-->
-        <div class="hero-section-portfolio" style="margin-left:7%;">
+        <div class="hero-section-portfolio">
             <div class="container hero-subsection-portfolio">
-                <h1 style="font-size:75px; padding-bottom: -2%;">Our Portfolio</h1>
+                <h1 style="font-size:75px;">Our Portfolio</h1>
                 <p>Ini adalah list portfolio lengkap kami</p>
             </div>
         </div>
     </header>
     <!-- 1 : Our Portfolio -->
-    <article class="background-3" style="margin-top: -6%;">
+    <article class="background-3">
         <div class="container">
             <h2>Our Portfolio</h2>
             <div class="underline"></div>
             <div class="flex-our-portfolio">
                 <ul>
-                    <ol><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\5-Camera-Symbol.PNG"></ol>
+                    <ol><img src="..\..\aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\5-Camera-Symbol.PNG"></ol>
                     <ol><h3>Short Video Production</h3></ol>
                     <ol><p>+100 Design Files</p></ol>
-                    <ol class="arrow-adjust"><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\SVG\right-arrow-thumbnail.SVG"></ol>
+                    <!--<ol class="arrow-adjust"><img src="aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\SVG\right-arrow-thumbnail.SVG"></ol>-->
+                    <ol><link rel="icon" type="image/x-icon" href="aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\SVG\right-arrow-thumbnail.ico"></ol>
+                    <ol>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="30" viewBox="0 0 57 30" fill="none">
+                            <path d="M55.5617 16.1162C56.3384 15.3309 56.3315 14.0646 55.5462 13.2878L42.749 0.629594C41.9636 -0.147177 40.6973 -0.140259 39.9206 0.645044C39.1438 1.43035 39.1507 2.69666 39.936 3.47343L51.3114 14.7252L40.0596 26.1005C39.2829 26.8858 39.2898 28.1521 40.0751 28.9289C40.8604 29.7057 42.1267 29.6987 42.9035 28.9134L55.5617 16.1162ZM1.01093 17L54.1507 16.7097L54.1288 12.7097L0.989075 13L1.01093 17Z" fill="black"/>
+                        </svg>
+                    </ol>
                 </ul>
                 <ul>
-                    <ol><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\6-Edit-Symbol.PNG"></ol>
+                    <ol><img src="..\..\aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\6-Edit-Symbol.PNG"></ol>
                     <ol><h3>Design Feeds Instagram</h3></ol>
                     <ol><p>+100 Design Files</p></ol>
-                    <ol class="arrow-adjust"><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\SVG\right-arrow-thumbnail.SVG"></ol>
+                    <ol>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="30" viewBox="0 0 57 30" fill="none">
+                            <path d="M55.5617 16.1162C56.3384 15.3309 56.3315 14.0646 55.5462 13.2878L42.749 0.629594C41.9636 -0.147177 40.6973 -0.140259 39.9206 0.645044C39.1438 1.43035 39.1507 2.69666 39.936 3.47343L51.3114 14.7252L40.0596 26.1005C39.2829 26.8858 39.2898 28.1521 40.0751 28.9289C40.8604 29.7057 42.1267 29.6987 42.9035 28.9134L55.5617 16.1162ZM1.01093 17L54.1507 16.7097L54.1288 12.7097L0.989075 13L1.01093 17Z" fill="black"/>
+                        </svg>
+                    </ol>
                 </ul>
                 <ul>
-                    <ol><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\7-Sosmed-Symbol.PNG"></ol>
+                    <ol><img src="..\..\aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\7-Sosmed-Symbol.PNG"></ol>
                     <ol><h3>Social Media Management</h3></ol>
                     <ol><p>+100 Design Files</p></ol>
-                    <ol class="arrow-adjust"><img src="../../aidia-png-svg\1 - Ada Diseluruh Halaman\1 - Our Work\SVG\right-arrow-thumbnail.SVG"></ol>
+                    <ol>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="57" height="30" viewBox="0 0 57 30" fill="none">
+                            <path d="M55.5617 16.1162C56.3384 15.3309 56.3315 14.0646 55.5462 13.2878L42.749 0.629594C41.9636 -0.147177 40.6973 -0.140259 39.9206 0.645044C39.1438 1.43035 39.1507 2.69666 39.936 3.47343L51.3114 14.7252L40.0596 26.1005C39.2829 26.8858 39.2898 28.1521 40.0751 28.9289C40.8604 29.7057 42.1267 29.6987 42.9035 28.9134L55.5617 16.1162ZM1.01093 17L54.1507 16.7097L54.1288 12.7097L0.989075 13L1.01093 17Z" fill="black"/>
+                        </svg>
+                    </ol>
                 </ul>
             </div>
             <button class="button-our-portfolio">View Our Resources</button>

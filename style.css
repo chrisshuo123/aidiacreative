@@ -174,16 +174,15 @@ body {
     background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.2 - Short Video Production/shortVid-header-BG.PNG");
 }
 
-header .header-designfeed-ig-portfolio {
+.header-designfeed-ig-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.2 - Design Feeds Instagram/design-feeds-instagram-header.PNG");
 }
 
 .header-shortvid-prod-portfolio {
-    background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.1 - Our Portfolio/ourPortfolio-header-BG.PNG");
-    height: 75vh;
+    background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.1 - Short Video Production/1 - Short Vid Header Image.PNG");
 }
 
-header .header-smo-portfolio {
+.header-smo-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.3 - Social Media Optimization (SMO)/sosmed-optimization-header.PNG");
 }
 
@@ -488,18 +487,17 @@ lalu atur sendiri margin nya. */
 .hero-section-portfolio {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     align-items: baseline;
     justify-content: space-between;
 }
 
 .hero-section-portfolio .hero-subsection-portfolio {
-    margin-top: 6%;
     color: #fff;
     text-align: center;
-    margin-left: -2%;
-    margin-top: 11%;
+    margin-left: 3%;
+    margin-top: 14%;
 }
 
 /* BG-1: Warna Gray #AFAFAF */
@@ -772,6 +770,19 @@ lalu atur sendiri margin nya. */
     color: #fff;
     margin: 5% auto;
     margin-top: -2%;
+}
+
+.div-showcase-portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.div-img-showcase-portfolio {
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 div.short-vid-port-layout {

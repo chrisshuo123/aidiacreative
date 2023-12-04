@@ -6,132 +6,176 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" type="text/css" href="../../custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Aidia Design Feed Portfolio IG</title>
 </head>
 <body>
-    <header>
-        <div class="header-designfeed-ig-portfolio">
-            <div class="wrapper">
-                <nav class="nav-bg">
-                    <img src="../../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Work</a></li>
-                        <ul>
-                            <li><a href="#">Our Portfolio</a></li>
-                            <li><a href="#">Our Services</a></li>
+    <header class="header-designfeed-ig-portfolio">
+        <div class="container-fluid" style="position: fixed; z-index:100;">
+            <nav class="navbar navbar-expand-lg navbar-light"> <!--bg-light dihapus supaya transparan-->
+                <div class="container">
+                    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                    <img src="../../aidia-png-svg/1 - Ada Diseluruh Halaman/2 - Navbar/Logo.SVG" style="position: relative;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-right-position" id="navbarNavDropdown">
+                    <!-- Khusus class .navbar-right-position diedit pada style.css -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\our-portfolio.html">Our Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\shortvid-production-portfolio.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item active" href="#">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-portfolio\sosmed-opt-portfolio.html">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\our-services.html">Our Services</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\shortvid-prod-services.html">Short Video Production</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\designfeed-ig-services.html">Design Feeds Instagram</a></li>
+                                    <li><a class="dropdown-item" href="..\..\our-work\our-services\smm-services.html">Social Media Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\about-us.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="..\..\contact-us.html">Contact Us</a>
+                            </li>
                         </ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
-                <!--<img src="aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-feeds-instagram-header.PNG">-->
-                <div class="hero-section-portfolio">
-                    <div class="hero-subsection-portfolio">
-                        <h1>Design Feeds Instagram</h1>
-                        <p>Berikut ini adalah Hasil kerja Design Feeds Instagram dari Aidia Creative</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--<img src="aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-feeds-instagram-header.PNG">-->
+        <div class="hero-section-portfolio">
+            <div class="container hero-subsection-portfolio">
+                <h1>Design Feeds Instagram</h1>
+                <p>Berikut ini adalah Hasil kerja Design Feeds Instagram dari Aidia Creative</p>
+            </div>
+        </div>
+    </header>
+    <!-- 1 : Design Feeds Instagram -->
+    <article class="div-article-offer">
+        <div class="container">
+            <h2>Design Feeds Instagram</h2>
+            <div class="sub-div-article-offer">
+                <p style="margin-bottom: 3%;">Sekumpulan Design Feeds Instagram dihandle oleh Aidia Creative yang menyesuaikan brand identity Perusahaan menggunakan foto  high resolution, serta penyampaian promosi & informasi menggunakan kaidah Desain Komunikasi Visual.</p>
+                <div class="div-showcase-portfolio">
+                    <div class="div-img-showcase-portfolio">
+                        <h3>Prinze Birdnest</h3>
+                        <img src="../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-1.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>RedEgg</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-2.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>Kerigo</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-3.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>RPP</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-4.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>Alcovery</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-5.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>The City Manado</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-6.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>Loja</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-7.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>Shao Kao</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-8.PNG">
+                    </div>
+                    <div class="div-img-showcase-portfolio">
+                        <h3>The Juicy Seafood</h3>
+                        <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-9.PNG">
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="wrapper">
-        <!-- 1 : Design Feeds Instagram -->
-        <article>
-            <h2>Design Feeds Instagram</h2>
-            <p>Sekumpulan Design Feeds Instagram dihandle oleh Aidia Creative yang menyesuaikan brand identity Perusahaan menggunakan foto  high resolution, serta penyampaian promosi & informasi menggunakan kaidah Desain Komunikasi Visual.</p>
-            <ul>
-                <ol>
-                    <h3>Prinze Birdnest</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-1.PNG">
-                </ol>
-                <ol>
-                    <h3>RedEgg</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-2.PNG">
-                </ol>
-                <ol>
-                    <h3>Kerigo</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-3.PNG">
-                </ol>
-                <ol>
-                    <h3>RPP</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-4.PNG">
-                </ol>
-                <ol>
-                    <h3>Alcovery</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-5.PNG">
-                </ol>
-                <ol>
-                    <h3>The City Manado</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-6.PNG">
-                </ol>
-                <ol>
-                    <h3>Loja</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-7.PNG">
-                </ol>
-                <ol>
-                    <h3>Shao Kao</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-8.PNG">
-                </ol>
-                <ol>
-                    <h3>The Juicy Seafood</h3>
-                    <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\5.1.2 - Design Feeds Instagram\design-thumbnail-9.PNG">
-                </ol>
-            </ul>
-            <img src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\arrow-vector-art.PNG">
-            <h2>Ingin konten anda terlihat menarik,<br>teroptimasi & Informatif sehingga engagement<br>audience jadi lebih meningkat?</h2>
-            <h2><button>LIHAT DETAIL JASA KAMI DISINI!</button></h2>
-        </article>
-        <!-- 2 : Footer -->
-        <footer>
-            <div>
-                <p>MIMPI adalah Perjalanan</p>
+        <div class="sub-div-article-offer">
+            <h3 style="margin-bottom:-5%; text-align:center;">Ingin konten anda terlihat menarik, teroptimasi & Informatif sehingga engagement audience jadi lebih meningkat?</h3>
+            <img class="arrow-cta-position" src="../../../aidia-png-svg\5.1 - Sub-Hal. Portfolio\arrow-vector-art.PNG">
+            <button class="button-view-our-portfolio">Lihat Detail Jasa Kami Disini!</button>
+        </div>
+    </article>
+    <footer>
+        <div class="column-1">
+            <!-- 1: Motto Aidia -->
+            <div class="motto-aidia-footer">
+                <p><favicon style="color: #ff0000;">MIMPI</favicon> adalah <favicon style="color:#0D7CFF;">Perjalanan</favicon></p>
                 <p>Dan kami ingin Menjadi</p>
-                <p>#TemanmuMeraihMimpi</p>
+                <p style="font-size:25px; margin-bottom:2%;"><b>#TemanmuMeraihMimpi</b></p>
                 <h3><button>Kirim Kami Pesan</button></h3>
             </div>
-            <div>
-                <h3>Contact Us</h3>
-                <!--alamat kantor-->
-                <div>
-                    <p><b>Alamat Kantor</b></p>
-                    <p>Jalan Dharmawangsa, Kota Surabaya, Jawa Timur, 60123</p>
-                </div>
-                <!--email-->
-                <div>
-                    <p><b>Email</b></p>
-                    <p>Marketing@aidiacreative.co.id</p>
-                </div>
-                <!--WhatsApp-->
-                <div>
-                    <p><b>WhatsApp</b></p>
-                    <p>+62 21 5366 1256</p>
-                </div>
-                <!--Our Social Media -->
-                <div>
-                    <p><b>Our Social Media</b></p>
-                    <ul>
-                        <ol><img src="../../../aidia-png-svg\7 - Footer\SVG\line-logo.SVG"></ol>
-                        <ol><img src="../../../aidia-png-svg\7 - Footer\SVG\youtube-logo.SVG"></ol>
-                        <ol><img src="../../../aidia-png-svg\7 - Footer\SVG\IG-Logo.SVG"></ol>
-                        <ol><img src="../../../aidia-png-svg\7 - Footer\SVG\Facebook-Logo.SVG"></ol>
-                    </ul>
-                </div>
-                <!--Our Company -->
-                <div>
-                    <h3>Our Company</h3>
+            <!-- 2: Contact Us -->
+            <div class="contact-us-footer">
+                <h3 style="font-size:25px;">Contact Us</h3>
+                <ul class="sub-contact-us-footer">
+                    <!--alamat kantor-->
+                    <ol>
+                        <h3><b>Alamat Kantor</b></h3>
+                        <p>Jalan Dharmawangsa, Kota Surabaya, Jawa Timur, 60123</p>
+                    </ol>
+                    <!--email-->
+                    <ol>
+                        <h3><b>Email</b></h3>
+                        <p>Marketing@aidiacreative.co.id</p>
+                    </ol>
+                    <!--WhatsApp-->
+                    <ol>
+                        <h3><b>WhatsApp</b></h3>
+                        <p>+62 21 5366 1256</p>
+                    </ol>
+                    <!--Our Social Media -->
+                    <ol>
+                        <h3><b>Our Social Media</b></h3>
+                        <ul class="our-sosmed-footer">
+                            <ol><img src="../../aidia-png-svg\7 - Footer\SVG\line-logo.SVG"></ol>
+                            <ol><img src="../../aidia-png-svg\7 - Footer\SVG\youtube-logo.SVG"></ol>
+                            <ol><img src="../../aidia-png-svg\7 - Footer\SVG\IG-Logo.SVG"></ol>
+                            <ol><img src="../../aidia-png-svg\7 - Footer\SVG\Facebook-Logo.SVG"></ol>
+                        </ul>
+                    </ol>
+                </ul>
+            </div>
+            <!-- 3: Our Company -->
+            <div class="our-company-footer">
+                <h3>Our Company</h3>
+                <div class="sub-our-company-footer">
                     <button>About Us</button>
                     <button>Our Portfolio</button>
                     <button>Our Services</button>
                 </div>
-                <!--Copyright-->
-                <div>
-                    <p>Copyright © 2023 by AIDIA CREATIVE. All Rights Reserved.</p>
-                </div>
             </div>
-        </footer>
-    </div>
+        </div>
+        <!--Copyright-->
+        <div style="text-align:center;">
+            <p>Copyright © 2023 by AIDIA CREATIVE. All Rights Reserved.</p>
+        </div>
+    </footer>
     <script src="../../../main.js"></script>
 </body>
 </html>
