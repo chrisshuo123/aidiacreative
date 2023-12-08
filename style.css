@@ -140,51 +140,87 @@ body {
 
 .header-homepage {
     background-image: url("aidia-png-svg/2 - Homepage/1 - Header Aidia Creative/image BG Header.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-contactus {
     /*background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);*/
     background-image: url("aidia-png-svg/4 - Contact Us/contactUs-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-aboutus {
     background-image: url("aidia-png-svg/3 - About Us/aboutUs-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-ourworks {
     background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/ourWorks-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-ourportfolio {
     background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.1 - Our Portfolio/ourPortfolio-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-ouservices {
     background-image: url("aidia-png-svg/5 - Our Work - Portfolio, Service/5.2 - Our Services/ourServices-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-designfeed-ig-services {
     background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.1 - Design Feeds IG/designFeedsIG-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-shorvid-prod-services {
     background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.2 - Short Video Production/shortVid-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-smm-services {
     background-image: url("aidia-png-svg/5.2 - Sub-Hal. Services/5.2.2 - Short Video Production/shortVid-header-BG.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-designfeed-ig-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.2 - Design Feeds Instagram/design-feeds-instagram-header.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-shortvid-prod-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.1 - Short Video Production/1 - Short Vid Header Image.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-smo-portfolio {
     background-image: url("aidia-png-svg/5.1 - Sub-Hal. Portfolio/5.1.3 - Social Media Optimization (SMO)/sosmed-optimization-header.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header h1 {
@@ -281,6 +317,7 @@ nav ul li a {
     width: 100%;
     align-items: baseline;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
 }
 
 .hero-section h1 {
@@ -362,7 +399,7 @@ lalu atur sendiri margin nya. */
     width: 632px;
     height: 71px;
     flex-shrink: 0;
-    border-radius: 50px;
+    border-radius: 20px;
     background: #FFCA42;
     margin-bottom: 5%;
 }
@@ -422,13 +459,13 @@ lalu atur sendiri margin nya. */
     width: 100%;
     align-items: baseline;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .hero-section-services .hero-section-ourservices {
-    margin-top: 10%;
     color: #fff;
     text-align: center;
-    margin-left: 26%;
     margin-top: 15%;
 }
 
@@ -492,12 +529,13 @@ lalu atur sendiri margin nya. */
     width: 100%;
     align-items: baseline;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .hero-section-portfolio .hero-subsection-portfolio {
     color: #fff;
     text-align: center;
-    margin-left: 3%;
     margin-top: 14%;
 }
 
@@ -565,6 +603,11 @@ lalu atur sendiri margin nya. */
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: space-around;
+    font-family: "Poppins", sans-serif;
+}
+
+.mengapa-pilih-aidia ul ol h3 {
+    font-size: 30px;
 }
 
 .mengapa-pilih-aidia ul h3 {
@@ -710,6 +753,7 @@ lalu atur sendiri margin nya. */
     align-content: center;
     margin-top: 5%;
     margin-left: 15%;
+    font-family: "Poppins", sans-serif;
 }
 
 .flex-our-portfolio ul {
@@ -784,6 +828,8 @@ lalu atur sendiri margin nya. */
     color: #fff;
     margin: 5% auto;
     margin-left: 28%;
+    font-family: "Poppins", sans-serif;
+    margin-top: 0%;
 }
 
 .button-view-our-portfolio {
@@ -940,6 +986,7 @@ div.sub-short-vid-port-layout {
 .div-article-offer {
     margin-left: 9%;
     max-width: 82%;
+    font-family: "Poppins", sans-serif;
 }
 
 .div-article-offer h2 {
@@ -954,6 +1001,11 @@ div.sub-short-vid-port-layout {
 
 .div-article-offer .sub-div-article-offer h3 {
     font-size: 40px;
+    text-align: center;
+}
+
+.div-article-offer .sub-div-article-offer p {
+    text-align: center;
 }
 
 .div-pembatas-halaman {
@@ -997,6 +1049,17 @@ div.sub-short-vid-port-layout {
 
 
 /* BAGIAN ABOUT US */
+
+.about-us-tim-aidia {
+    padding-top: -20%;
+    background-image: url("aidia-png-svg/3 - About Us/image-team-aidia.PNG"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 743px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
 .about-us-visi {
     display: flex;
     flex-direction: row;
@@ -1079,11 +1142,34 @@ div.sub-short-vid-port-layout {
 }
 
 .layout-aboutus-why-umkm h2 {
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .layout-aboutus-why-umkm p {
     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.umkm-flex-layout {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.umkm-flex-layout .umkm-flex {
+    width: 50%;
+}
+
+.umkm-flex img {
+    width: 455px;
+    height: 455px;
+}
+
+.umkm-flex-layout .umkm-text-position {
+    margin-top: 6%;
+    margin-right: 9%;
 }
 
 .img-width {
