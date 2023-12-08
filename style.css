@@ -38,6 +38,7 @@
     /* 3.3 - Mengapa kok UMKM? */
     --aboutUs-lightOrange: #FFCA42;
     --aboutUs-lightBlue: #9BD2CB;
+    --aboutUs-darkBlue: #092144;
     /* 3.4 - Gradiasi Warna */
     /*1: 155, 210, 203, 100%: #73D2CB
     2: 33 , 112, 229, 100%: #2170E5
@@ -560,11 +561,23 @@ lalu atur sendiri margin nya. */
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: baseline;
-    align-content: space-between;
-    margin-left: 2.5%;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.mengapa-pilih-aidia ul h3 {
+    margin-left: -20%;
+    padding-top: 10%;
+}
+
+.mengapa-pilih-aidia ul img {
+    margin-left: -20%;
+}
+
+.mengapa-pilih-aidia ul p {
+    margin-left: -20%;
 }
 
 /*
@@ -672,6 +685,19 @@ lalu atur sendiri margin nya. */
 .background-6 h2 {
     font-size: 40px;
     color: #fff;
+}
+
+.background-7 {
+    content: '';
+    background: var(--aboutUs-darkBlue);
+}
+
+.background-7 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
 
 .flex-our-portfolio {
@@ -971,6 +997,65 @@ div.sub-short-vid-port-layout {
 
 
 /* BAGIAN ABOUT US */
+.about-us-visi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.about-us-visi .visi-misi-layout {
+    width: 50%;
+}
+
+.visi-layout h2 {
+    text-align:left;
+    padding-left: 5%;
+    color: #fff;
+}
+
+.visi-layout p {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 3%;
+}
+
+.misi-layout h2 {
+    text-align:right;
+    padding-right: 5%;
+    color: #fff;
+}
+
+.misi-layout p {
+    font-size: 30px;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-top: 3%;
+    text-align: right;
+}
+
+.visi-image-size {
+    background-image: url("aidia-png-svg/3 - About Us/image-visi.PNG");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px;
+    width:30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.misi-image-size {
+    background-image: url("aidia-png-svg/3 - About Us/image-misi.PNG");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px;
+    width:30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wrapper .flex-visi-misi {
     width: 100vw;
     max-width: 100vw;
@@ -989,12 +1074,12 @@ div.sub-short-vid-port-layout {
 
 .layout-aboutus-why-umkm {
     margin-left: 9.5%;
-    margin-top: 3%;
+    padding-top: 3%;
     margin-right: 9.5%;
 }
 
 .layout-aboutus-why-umkm h2 {
-    margin-bottom: -1%;
+    margin-bottom: 1%;
 }
 
 .layout-aboutus-why-umkm p {
