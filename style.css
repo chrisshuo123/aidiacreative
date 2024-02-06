@@ -139,7 +139,7 @@ body {
 }*/
 
 .header-homepage {
-    background-image: url("https://aidiacreativeid.com/aidia-png-svg/2-homepage/1-header-aidia-creative/image-bg-header.png");
+    background-image: url("https://aidiacreativeid.com\aidia-png-svg\2-homepage\1-header-aidia-creative\image-bg-header.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
